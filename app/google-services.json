@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "328380448083",
+    "project_id": "vinappteria-5b78c",
+    "storage_bucket": "vinappteria-5b78c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328380448083:android:744cfb8c060475753835a6",
+        "android_client_info": {
+          "package_name": "com.vinappteria.vinappteria__"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZsBEPWvQwQ-j1ociCwR3j-FDJBFkt_dA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
