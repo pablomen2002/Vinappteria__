@@ -38,6 +38,9 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures{
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -61,8 +64,12 @@ dependencies {
     implementation("androidx.navigation:navigation-ui:$nav_version")
 
 
+
+
+
     //Glide
-    implementation("com.github.bumptech.glide:glide:4.13.0")
+    implementation ("com.google.dagger:hilt-android:2.49")
+    kapt ("com.google.dagger:hilt-compiler:2.49")
 
     //circular image
     implementation("de.hdodenhof:circleimageview:3.1.0")
