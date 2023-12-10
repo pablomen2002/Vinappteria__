@@ -63,7 +63,7 @@ class RegisterFragment: Fragment() {
                             Log.e(TAG, it.message.toString())
                             // Código sin animaciones
                         }
-                        else -> Unit
+                        else->Unit
                     }
                 }
             }
